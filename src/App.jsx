@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {useRef,useEffect} from 'react';
 
 import Input from './components/Input/Input.component';
@@ -47,9 +48,9 @@ function App() {
         <NameContainer>        
           <IntroArt/>
         </NameContainer>
-        <ContactContainer>
+        {/* <ContactContainer>
           <Contacts/>
-        </ContactContainer>
+        </ContactContainer> */}
       </IntroContainer>
       <ComandContainer>
         <CommandHistory commandHistory ={commandHistory} />
