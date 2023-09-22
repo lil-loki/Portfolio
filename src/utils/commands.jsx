@@ -6,7 +6,7 @@ import {ContactsMainContainer,ContactsContainer,ContactsLinks} from '../componen
 
 import {ExperienceTree} from './asciiArt';
 
-import ResumePath from '../../public/Lokesh_ Resume.pdf'
+import ResumePath from '../assets/Lokesh_ Resume.pdf'
 
 
 

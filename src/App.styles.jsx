@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const MainContainer = styled.div`
     border: 2px solid  rgb(11, 212, 28);
-    height:100vh;
+    height:calc(100vh - 4px);
+    width: calc(100vw - 4px);
     overflow:auto;
 `;
 
@@ -28,6 +29,7 @@ export const ProfilePhotoPre = styled.pre`
 
 export const NameContainer = styled.pre`
     margin-left:50px;
+    overflow:hidden;
 `;
 
 export const ComandContainer = styled.div`

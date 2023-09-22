@@ -1,18 +1,9 @@
 * {
   font-family: 'Hack', monospace;
   color: rgb(11, 212, 28) ;
-  background-color: black;  
-}
-
-html,
-body,
-body > div:first-child,
-div#__next,
-div#__next > div {
-  height:100vh;
-  overflow: auto;
-  margin: 0;
+  background-color: black; 
   padding: 0;
+  margin: 0; 
 }
 
 ::-webkit-scrollbar {
