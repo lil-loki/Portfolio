@@ -6,7 +6,7 @@ import {ContactsMainContainer,ContactsContainer,ContactsLinks} from '../componen
 
 import {ExperienceTree} from './asciiArt';
 
-import ResumePath from '../assets/Lokesh_ Resume.pdf'
+import ResumePath from '../assets/Lokesh_Resume.pdf'
 
 
 
@@ -135,8 +135,8 @@ export const skills = async (args) => {
                 <AsciiLoaderContainer>
                     <li><AsciiLoaderHead>HTML   :</AsciiLoaderHead> <AsciiLoader>█████████████████████████████████████████████░░░░░ 90%</AsciiLoader> </li>
                     <li><AsciiLoaderHead>CSS    :</AsciiLoaderHead> <AsciiLoader>█████████████████████████████████████████████░░░░░ 90%</AsciiLoader> </li>
-                    <li><AsciiLoaderHead>JS     :</AsciiLoaderHead> <AsciiLoader>████████████████████████████████████████░░░░░░░░░░ 80%</AsciiLoader> </li>
-                    <li><AsciiLoaderHead>React  :</AsciiLoaderHead> <AsciiLoader>████████████████████████████████████████░░░░░░░░░░ 80%</AsciiLoader> </li>                  
+                    <li><AsciiLoaderHead>JS     :</AsciiLoaderHead> <AsciiLoader>███████████████████████████████████████████░░░░░░░ 85%</AsciiLoader> </li>
+                    <li><AsciiLoaderHead>React  :</AsciiLoaderHead> <AsciiLoader>███████████████████████████████████████████░░░░░░░ 85%</AsciiLoader> </li>                  
                     <li><AsciiLoaderHead>Angular:</AsciiLoaderHead> <AsciiLoader>████████████████████████████████████████░░░░░░░░░░ 80%</AsciiLoader> </li>
                     <li><AsciiLoaderHead>Java   :</AsciiLoaderHead> <AsciiLoader>████████████████████████████████████████░░░░░░░░░░ 80%</AsciiLoader> </li>
                     <li><AsciiLoaderHead>Python :</AsciiLoaderHead> <AsciiLoader>█████████████████████████████████████████████░░░░░ 90%</AsciiLoader> </li>
@@ -244,12 +244,12 @@ export const notepad = async (args) => {
 };
 
 export const msword = async (args) => {
-    return `'MSWord' Seriously??? Please start using Vscode `;
+    return `'MSWord' Seriously??? Please start using Vscode Editor `;
 };
 
-export const ipconfig = async (args) => {
+/* export const ipconfig = async (args) => {
     return ipdetails;
-};
+}; */
 
 export const sudo = async (args) => {
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); 
@@ -268,4 +268,4 @@ export const pwd = async (args) => {
     return `C:Users/Lokesh/Resume`;
 };
 
-const ipdetails ="";
+/* const ipdetails =""; */
