@@ -82,7 +82,7 @@ export const aboutme = async (args) => {
     </OutputValue>
     <OutputValue>
     After graduating with a Bachelor's in Electronics and Communication Engineering ,I am currently working as a Java 
-    Full-Stack Developer at LTIMindtree building enterprise web applications.
+    Full-Stack Developer at NielsenIQ building enterprise web applications.
     </OutputValue>
     </OutputValueContainer>
     </OutputContainer>
