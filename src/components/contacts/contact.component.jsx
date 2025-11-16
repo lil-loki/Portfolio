@@ -1,6 +1,6 @@
 import {ContactsMainContainer,ContactsContainer,ContactsLinks} from './contact.style'
 
-import ResumePath from '../assets/Lokesh_Resume_2025.pdf';
+import ResumePath from '../../assets/Lokesh_Resume_2025.pdf';
 
 export default function Contacts() {
   function handleDownload(){
