@@ -22,9 +22,14 @@ For a list of available commands, type 'help'.
 export const ExperienceTree = (args) => {
 return `
 .Lokesh:
+├───.NielsenIQ
+│   └───.Engineer
+│       │───07/2024-Present
+│       └───Full time Job as a Full Stack Developer.
+│
 ├───.LTIMindtree
 │   │───.Senior Software Engineer
-│   │   │───12/2021-Present
+│   │   │───12/2021-07/2024
 │   │   └───Full time Job as a Java Full Stack Developer.
 │   │
 │   └───.Graduate Engineer Trainee
